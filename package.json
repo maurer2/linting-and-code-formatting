@@ -1,0 +1,15 @@
+{
+  "name": "linting-and-code-formatting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:maurer2/linting-and-code-formatting.git",
+  "author": "Martin",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "markdown-pdf": "^10.0.0"
+  },
+  "scripts": {
+    "generate-pdf": "node -r esm generate-pdf.js"
+  }
+}
