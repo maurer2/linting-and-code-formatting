@@ -33,14 +33,25 @@
     * Fork of JSLint in 2011
     * Configurable
     * Not extendable
-    * Fairly slow to update
+    * Fairly slow to adapt to new JS-features
+    * Hindered by the JSON licence
+
+  * JSCS
+    * Code formatter
+    * Number of downloadable presets
+    * Development stopped in 2016 with version 3.0
+    * Some of the team joint ESLint team
 
 * Current state
-  * ESLint still most popular
+  * Created in 2013
+  * ESLint still most popular JS linting tool
   * Prettier has become very popular especially in the React ecosystem
 
 * ESLint
+  * Most popular and extendable JS linter
+  * Overtook JSHint in 2015 in popularity
   * Doesn't support markdown or mdx
+  * Rich ecosystem of presets and plugins
 
 * Popular ESLint presets
   * eslint-config-airbnb
