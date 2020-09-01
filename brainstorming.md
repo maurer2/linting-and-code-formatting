@@ -8,7 +8,7 @@
 * ESLint
 * Prettier
 * TSLint
-
+* Rome
 
 ## Topics
 
@@ -21,7 +21,26 @@
   * Less typing
   * Additional safety net
 
-* History
+
+* The Fallen
+  * JSLint
+    * First JS linter from 2002 by Douglas Crockford
+    * Opinionated
+    * Not extendable
+    * Uses Regex
+
+  * JSHint
+    * Fork of JSLint in 2011
+    * Configurable
+    * Not extendable
+    * Fairly slow to update
+
+* Current state
+  * ESLint still most popular
+  * Prettier has become very popular especially in the React ecosystem
+
+* ESLint
+  * Doesn't support markdown or mdx
 
 * Popular ESLint presets
   * eslint-config-airbnb
@@ -29,13 +48,21 @@
   * eslint-config-standard
     * Most popular styleguide for JS without semicolons
 
-* Popular ESLint and plugins
+* Popular ESLint plugins
   * eslint-plugin-vue
     * Additional rules for Vue 2 & 3
   * react
     * React and JSX specific rules
   * react-hooks
     * Helps with common issues related to hooks
+
+
+* Prettier
+  * No syntax check
+  * AST to prettier AST
+  * Popular because it is very opinionated
+  * Few config options
+  * Also supports JSON and md/mdx
 
 * Linting TypeScript with ESLint vs TSLint
   * typescript-eslint
