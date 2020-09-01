@@ -30,17 +30,23 @@
     * Uses Regex
 
   * JSHint
-    * Fork of JSLint in 2011
+    * Forked from JSLint in 2011
     * Configurable
     * Not extendable
-    * Fairly slow to adapt to new JS-features
+    * Fairly slow to add support for new JS-features
     * Hindered by the JSON licence
 
   * JSCS
     * Code formatter
+    * No syntax checker
     * Number of downloadable presets
     * Development stopped in 2016 with version 3.0
     * Some of the team joint ESLint team
+
+  * TSLint
+    * Created in 2016 by Palantir
+    * Was most popular linter for TypeScript
+    * Deprecated in 2019 in favour of better TS integration for ESLint
 
 * Current state
   * Created in 2013
